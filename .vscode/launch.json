@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SimpleMetalApp}",
+            "name": "Debug SimpleMetalApp",
+            "program": "${workspaceFolder:SimpleMetalApp}/.build/debug/SimpleMetalApp",
+            "preLaunchTask": "swift: Build Debug SimpleMetalApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SimpleMetalApp}",
+            "name": "Release SimpleMetalApp",
+            "program": "${workspaceFolder:SimpleMetalApp}/.build/release/SimpleMetalApp",
+            "preLaunchTask": "swift: Build Release SimpleMetalApp"
+        }
+    ]
+}
